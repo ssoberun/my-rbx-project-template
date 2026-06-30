@@ -10,6 +10,8 @@ local function setup_asset_library (world: Jecs.World)
     end)
 end
 
+
+
 return {
     system = setup_asset_library,
     phase = phase,
