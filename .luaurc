@@ -1,0 +1,8 @@
+{
+    "aliases": {
+        "pkg": "Packages/",
+        "shared": "src/shared",
+        "util": "src/shared/utilities/",
+        "ct": "src/shared/ct/"
+    }
+}
