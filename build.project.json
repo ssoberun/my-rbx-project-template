@@ -1,0 +1,29 @@
+{
+  "name": "memorandum",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "shared": {
+        "$path": "dist/shared"
+      },
+      "client": {
+        "$path": "dist/client"
+      },
+      "stories": {
+        "$path": "dist/stories"
+      },
+      "Packages": {
+        "$path": "Packages"
+      },
+      "network": {
+        "$path": "dist/network"
+      }
+    },
+    "ServerScriptService": {
+      "server": {
+        "$path": "dist/server"
+      }
+    }
+  }
+}
+

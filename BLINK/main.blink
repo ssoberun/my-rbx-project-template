@@ -1,0 +1,21 @@
+-- these can be ignored if you are using the studio plugin
+option Casing = Snake
+option ClientOutput = "../src/network/blink_client.luau"
+option ServerOutput = "../src/network/blink_server.luau"
+
+-- import "./replecs_networking.blink" -- replecs
+
+event my_first_event {
+    from: Server,
+    type: Reliable,
+    call: SingleSync,
+    data: string
+}
+
+event my_second_event {
+    from: Server,
+    Type: Unreliable,
+    call: SingleSync,
+    data: boolean
+}
+

@@ -1,0 +1,35 @@
+[package]
+name = "lovel/memorandum-porting-test"
+version = "0.1.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+[dependencies]
+Jecs = "ukendio/jecs@0.9.0"
+jecs_utils = "pepeeltoro41/jecs-utils@1.3.0"
+jecs_assemblies = "pepeeltoro41/jecs-assemblies@1.0.1"
+jecs_gizmo = "pepeeltoro41/jecs-gizmo@1.0.1"
+jecs_spring = "pepeeltoro41/jecs-spring@1.0.1"
+jecs_vide = "pepeeltoro41/jecs-vide@1.0.3"
+
+replecs = "pepeeltoro41/replecs@0.2.3" 
+yetanothernet = "yetanotherclown/yetanothernet@0.9.0"
+
+Planck = "yetanotherclown/planck@0.2.0"
+PlanckRunService = "yetanotherclown/planck-runservice@0.2.0"
+PlanckJabby = "yetanotherclown/planck-jabby@0.2.0"
+
+Jabby = "alicesaidhi/jabby@0.4.0"
+
+vide = "centau/vide@0.3.1"
+Ripple = "littensy/ripple@0.10.1"
+VideRipple = "littensy/vide-ripple@0.10.1"
+ReactRipple = "littensy/react-ripple@3.0.1"
+
+pebble = "alicesaidhi/pebble@0.1.2"
+Spark = "nezuo/spark@0.3.1"
+Promise = "evaera/promise@4.0.0"
+Squash = "data-oriented-house/squash@5.0.0"
+
+[server-dependencies]
+
