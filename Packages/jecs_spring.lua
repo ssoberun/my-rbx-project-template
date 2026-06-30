@@ -1,1 +1,0 @@
-return require(script.Parent._Index["pepeeltoro41_jecs-spring@1.0.2"]["jecs-spring"])
